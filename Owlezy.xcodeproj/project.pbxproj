@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922239642B2DCAC100068426 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 922239632B2DCAC100068426 /* FLAnimatedImage */; };
+		922239662B2DCC0800068426 /* owl1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 922239652B2DCC0800068426 /* owl1.gif */; };
+		92638C772B2D9A0A001CBFF4 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92638C762B2D9A0A001CBFF4 /* UserDefaultsManager.swift */; };
+		92638C7C2B2DA2BC001CBFF4 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92638C7B2B2DA2BC001CBFF4 /* FileManager.swift */; };
 		92A9E1932B2C42F4009307D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1922B2C42F4009307D8 /* AppDelegate.swift */; };
-		92A9E1952B2C42F4009307D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1942B2C42F4009307D8 /* SceneDelegate.swift */; };
-		92A9E1972B2C42F4009307D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1962B2C42F4009307D8 /* ViewController.swift */; };
-		92A9E19A2B2C42F4009307D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A9E1982B2C42F4009307D8 /* Main.storyboard */; };
+		92A9E1972B2C42F4009307D8 /* BreedsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1962B2C42F4009307D8 /* BreedsViewContoller.swift */; };
 		92A9E19C2B2C42F5009307D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A9E19B2B2C42F5009307D8 /* Assets.xcassets */; };
 		92A9E19F2B2C42F5009307D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A9E19D2B2C42F5009307D8 /* LaunchScreen.storyboard */; };
+		92A9E1A72B2C43E8009307D8 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1A62B2C43E8009307D8 /* TabbarViewController.swift */; };
+		92A9E1A92B2C4476009307D8 /* EncyclopediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1A82B2C4476009307D8 /* EncyclopediaViewController.swift */; };
+		92A9E1AB2B2C448E009307D8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1AA2B2C448E009307D8 /* SettingsViewController.swift */; };
+		92A9E1AD2B2C57E8009307D8 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1AC2B2C57E8009307D8 /* QuizViewController.swift */; };
+		92A9E1AF2B2C6B6D009307D8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1AE2B2C6B6D009307D8 /* UIColorExtension.swift */; };
+		92A9E1B12B2C6E33009307D8 /* BreedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1B02B2C6E33009307D8 /* BreedDetailViewController.swift */; };
+		92A9E1B32B2C706B009307D8 /* Breeds in Resources */ = {isa = PBXBuildFile; fileRef = 92A9E1B22B2C706B009307D8 /* Breeds */; };
+		92A9E1BD2B2CBCFE009307D8 /* FullIMageBreedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1BC2B2CBCFE009307D8 /* FullIMageBreedViewController.swift */; };
+		92A9E1BF2B2CD6A9009307D8 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1BE2B2CD6A9009307D8 /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		922239652B2DCC0800068426 /* owl1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = owl1.gif; sourceTree = "<group>"; };
+		92638C762B2D9A0A001CBFF4 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		92638C7B2B2DA2BC001CBFF4 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileManager.swift; path = ../../../../../../Applications/FileManager.swift; sourceTree = "<group>"; };
 		92A9E18F2B2C42F4009307D8 /* Owlezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Owlezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A9E1922B2C42F4009307D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92A9E1942B2C42F4009307D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92A9E1962B2C42F4009307D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92A9E1992B2C42F4009307D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A9E1962B2C42F4009307D8 /* BreedsViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsViewContoller.swift; sourceTree = "<group>"; };
 		92A9E19B2B2C42F5009307D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A9E19E2B2C42F5009307D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A9E1A02B2C42F5009307D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A9E1A62B2C43E8009307D8 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		92A9E1A82B2C4476009307D8 /* EncyclopediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaViewController.swift; sourceTree = "<group>"; };
+		92A9E1AA2B2C448E009307D8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		92A9E1AC2B2C57E8009307D8 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		92A9E1AE2B2C6B6D009307D8 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		92A9E1B02B2C6E33009307D8 /* BreedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailViewController.swift; sourceTree = "<group>"; };
+		92A9E1B22B2C706B009307D8 /* Breeds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Breeds; sourceTree = "<group>"; };
+		92A9E1BC2B2CBCFE009307D8 /* FullIMageBreedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullIMageBreedViewController.swift; sourceTree = "<group>"; };
+		92A9E1BE2B2CD6A9009307D8 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922239642B2DCAC100068426 /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +78,23 @@
 		92A9E1912B2C42F4009307D8 /* Owlezy */ = {
 			isa = PBXGroup;
 			children = (
+				92A9E1A62B2C43E8009307D8 /* TabbarViewController.swift */,
+				92A9E1962B2C42F4009307D8 /* BreedsViewContoller.swift */,
+				92A9E1BE2B2CD6A9009307D8 /* FavoritesViewController.swift */,
+				92A9E1BC2B2CBCFE009307D8 /* FullIMageBreedViewController.swift */,
+				92638C7B2B2DA2BC001CBFF4 /* FileManager.swift */,
+				92638C762B2D9A0A001CBFF4 /* UserDefaultsManager.swift */,
+				92A9E1B02B2C6E33009307D8 /* BreedDetailViewController.swift */,
+				92A9E1A82B2C4476009307D8 /* EncyclopediaViewController.swift */,
+				92A9E1AC2B2C57E8009307D8 /* QuizViewController.swift */,
+				92A9E1AA2B2C448E009307D8 /* SettingsViewController.swift */,
+				92A9E1AE2B2C6B6D009307D8 /* UIColorExtension.swift */,
 				92A9E1922B2C42F4009307D8 /* AppDelegate.swift */,
-				92A9E1942B2C42F4009307D8 /* SceneDelegate.swift */,
-				92A9E1962B2C42F4009307D8 /* ViewController.swift */,
-				92A9E1982B2C42F4009307D8 /* Main.storyboard */,
+				92A9E1B22B2C706B009307D8 /* Breeds */,
 				92A9E19B2B2C42F5009307D8 /* Assets.xcassets */,
 				92A9E19D2B2C42F5009307D8 /* LaunchScreen.storyboard */,
 				92A9E1A02B2C42F5009307D8 /* Info.plist */,
+				922239652B2DCC0800068426 /* owl1.gif */,
 			);
 			path = Owlezy;
 			sourceTree = "<group>";
@@ -83,6 +115,9 @@
 			dependencies = (
 			);
 			name = Owlezy;
+			packageProductDependencies = (
+				922239632B2DCAC100068426 /* FLAnimatedImage */,
+			);
 			productName = Owlezy;
 			productReference = 92A9E18F2B2C42F4009307D8 /* Owlezy.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 92A9E1862B2C42F4009307D8;
+			packageReferences = (
+				922239622B2DCAC100068426 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = 92A9E1902B2C42F4009307D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A9E1B32B2C706B009307D8 /* Breeds in Resources */,
 				92A9E19F2B2C42F5009307D8 /* LaunchScreen.storyboard in Resources */,
+				922239662B2DCC0800068426 /* owl1.gif in Resources */,
 				92A9E19C2B2C42F5009307D8 /* Assets.xcassets in Resources */,
-				92A9E19A2B2C42F4009307D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +177,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A9E1972B2C42F4009307D8 /* ViewController.swift in Sources */,
+				92A9E1A92B2C4476009307D8 /* EncyclopediaViewController.swift in Sources */,
+				92A9E1AF2B2C6B6D009307D8 /* UIColorExtension.swift in Sources */,
+				92A9E1972B2C42F4009307D8 /* BreedsViewContoller.swift in Sources */,
+				92638C7C2B2DA2BC001CBFF4 /* FileManager.swift in Sources */,
 				92A9E1932B2C42F4009307D8 /* AppDelegate.swift in Sources */,
-				92A9E1952B2C42F4009307D8 /* SceneDelegate.swift in Sources */,
+				92638C772B2D9A0A001CBFF4 /* UserDefaultsManager.swift in Sources */,
+				92A9E1AD2B2C57E8009307D8 /* QuizViewController.swift in Sources */,
+				92A9E1BD2B2CBCFE009307D8 /* FullIMageBreedViewController.swift in Sources */,
+				92A9E1AB2B2C448E009307D8 /* SettingsViewController.swift in Sources */,
+				92A9E1B12B2C6E33009307D8 /* BreedDetailViewController.swift in Sources */,
+				92A9E1BF2B2CD6A9009307D8 /* FavoritesViewController.swift in Sources */,
+				92A9E1A72B2C43E8009307D8 /* TabbarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92A9E1982B2C42F4009307D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92A9E1992B2C42F4009307D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92A9E19D2B2C42F5009307D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -297,9 +337,9 @@
 				INFOPLIST_FILE = Owlezy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +365,9 @@
 				INFOPLIST_FILE = Owlezy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		922239622B2DCAC100068426 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		922239632B2DCAC100068426 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 922239622B2DCAC100068426 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92A9E1872B2C42F4009307D8 /* Project object */;
 }

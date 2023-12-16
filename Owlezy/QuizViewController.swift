@@ -2,15 +2,17 @@
 //  QuizViewController.swift
 //  Owlezy
 //
-//  Created by relwas on 15/12/23.
+//  Created by man on 15/12/23.
 //
 
 import UIKit
 
+@available(iOS 13.0, *)
 class QuizViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "Fon")
 
         // Do any additional setup after loading the view.
     }
