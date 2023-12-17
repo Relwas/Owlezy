@@ -443,6 +443,7 @@
 				DEVELOPMENT_TEAM = L64DM58658;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Owlezy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Owlezy;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to save images.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -475,6 +476,7 @@
 				DEVELOPMENT_TEAM = L64DM58658;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Owlezy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Owlezy;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to save images.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
