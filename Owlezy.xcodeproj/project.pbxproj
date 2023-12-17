@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		922239642B2DCAC100068426 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 922239632B2DCAC100068426 /* FLAnimatedImage */; };
+		920D27692B2F0FB7000C7EC9 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 920D27682B2F0FB7000C7EC9 /* FLAnimatedImage */; };
+		920D276C2B2F10F6000C7EC9 /* SPConfetti in Frameworks */ = {isa = PBXBuildFile; productRef = 920D276B2B2F10F6000C7EC9 /* SPConfetti */; };
+		920D27702B2F18EA000C7EC9 /* quizImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 920D276F2B2F18EA000C7EC9 /* quizImg.png */; };
+		920D27782B2F3F54000C7EC9 /* incorrectSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 920D27772B2F3F54000C7EC9 /* incorrectSound.mp3 */; };
+		920D277A2B2F414D000C7EC9 /* correctSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 920D27792B2F414D000C7EC9 /* correctSound.mp3 */; };
+		920D277C2B2F4952000C7EC9 /* resultSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 920D277B2B2F4952000C7EC9 /* resultSound.mp3 */; };
+		920D27822B2F7FDD000C7EC9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D27812B2F7FDC000C7EC9 /* SettingsViewController.swift */; };
+		920D27842B2F809B000C7EC9 /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D27832B2F809B000C7EC9 /* VibrationManager.swift */; };
+		920D27882B2F8BA2000C7EC9 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D27872B2F8BA2000C7EC9 /* AboutAppViewController.swift */; };
+		920D278E2B2F9A69000C7EC9 /* aboutGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 920D278D2B2F9A69000C7EC9 /* aboutGif.gif */; };
 		922239662B2DCC0800068426 /* owl1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 922239652B2DCC0800068426 /* owl1.gif */; };
+		922239702B2DED5D00068426 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222396F2B2DED5D00068426 /* FileManager.swift */; };
+		922239782B2DEF6100068426 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922239772B2DEF6100068426 /* QuizViewController.swift */; };
+		922239802B2E068C00068426 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222397F2B2E068C00068426 /* ResultViewController.swift */; };
+		922239822B2E170A00068426 /* SmoothProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922239812B2E170A00068426 /* SmoothProgressBar.swift */; };
 		92638C772B2D9A0A001CBFF4 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92638C762B2D9A0A001CBFF4 /* UserDefaultsManager.swift */; };
-		92638C7C2B2DA2BC001CBFF4 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92638C7B2B2DA2BC001CBFF4 /* FileManager.swift */; };
 		92A9E1932B2C42F4009307D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1922B2C42F4009307D8 /* AppDelegate.swift */; };
 		92A9E1972B2C42F4009307D8 /* BreedsViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1962B2C42F4009307D8 /* BreedsViewContoller.swift */; };
 		92A9E19C2B2C42F5009307D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A9E19B2B2C42F5009307D8 /* Assets.xcassets */; };
 		92A9E19F2B2C42F5009307D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A9E19D2B2C42F5009307D8 /* LaunchScreen.storyboard */; };
 		92A9E1A72B2C43E8009307D8 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1A62B2C43E8009307D8 /* TabbarViewController.swift */; };
 		92A9E1A92B2C4476009307D8 /* EncyclopediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1A82B2C4476009307D8 /* EncyclopediaViewController.swift */; };
-		92A9E1AB2B2C448E009307D8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1AA2B2C448E009307D8 /* SettingsViewController.swift */; };
-		92A9E1AD2B2C57E8009307D8 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1AC2B2C57E8009307D8 /* QuizViewController.swift */; };
+		92A9E1AD2B2C57E8009307D8 /* StartQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1AC2B2C57E8009307D8 /* StartQuizViewController.swift */; };
 		92A9E1AF2B2C6B6D009307D8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1AE2B2C6B6D009307D8 /* UIColorExtension.swift */; };
 		92A9E1B12B2C6E33009307D8 /* BreedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9E1B02B2C6E33009307D8 /* BreedDetailViewController.swift */; };
 		92A9E1B32B2C706B009307D8 /* Breeds in Resources */ = {isa = PBXBuildFile; fileRef = 92A9E1B22B2C706B009307D8 /* Breeds */; };
@@ -27,9 +38,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920D276F2B2F18EA000C7EC9 /* quizImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quizImg.png; sourceTree = "<group>"; };
+		920D27772B2F3F54000C7EC9 /* incorrectSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrectSound.mp3; sourceTree = "<group>"; };
+		920D27792B2F414D000C7EC9 /* correctSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctSound.mp3; sourceTree = "<group>"; };
+		920D277B2B2F4952000C7EC9 /* resultSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = resultSound.mp3; sourceTree = "<group>"; };
+		920D27812B2F7FDC000C7EC9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		920D27832B2F809B000C7EC9 /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
+		920D27872B2F8BA2000C7EC9 /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		920D278D2B2F9A69000C7EC9 /* aboutGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = aboutGif.gif; sourceTree = "<group>"; };
 		922239652B2DCC0800068426 /* owl1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = owl1.gif; sourceTree = "<group>"; };
+		9222396F2B2DED5D00068426 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileManager.swift; path = ../../../../../../../Applications/FileManager.swift; sourceTree = "<group>"; };
+		922239772B2DEF6100068426 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		9222397F2B2E068C00068426 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		922239812B2E170A00068426 /* SmoothProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothProgressBar.swift; sourceTree = "<group>"; };
 		92638C762B2D9A0A001CBFF4 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
-		92638C7B2B2DA2BC001CBFF4 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileManager.swift; path = ../../../../../../Applications/FileManager.swift; sourceTree = "<group>"; };
 		92A9E18F2B2C42F4009307D8 /* Owlezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Owlezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A9E1922B2C42F4009307D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A9E1962B2C42F4009307D8 /* BreedsViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsViewContoller.swift; sourceTree = "<group>"; };
@@ -38,8 +60,7 @@
 		92A9E1A02B2C42F5009307D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A9E1A62B2C43E8009307D8 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		92A9E1A82B2C4476009307D8 /* EncyclopediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaViewController.swift; sourceTree = "<group>"; };
-		92A9E1AA2B2C448E009307D8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		92A9E1AC2B2C57E8009307D8 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		92A9E1AC2B2C57E8009307D8 /* StartQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartQuizViewController.swift; sourceTree = "<group>"; };
 		92A9E1AE2B2C6B6D009307D8 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		92A9E1B02B2C6E33009307D8 /* BreedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailViewController.swift; sourceTree = "<group>"; };
 		92A9E1B22B2C706B009307D8 /* Breeds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Breeds; sourceTree = "<group>"; };
@@ -52,13 +73,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				922239642B2DCAC100068426 /* FLAnimatedImage in Frameworks */,
+				920D27692B2F0FB7000C7EC9 /* FLAnimatedImage in Frameworks */,
+				920D276C2B2F10F6000C7EC9 /* SPConfetti in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922239692B2DECFA00068426 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				922239712B2DEE4300068426 /* Tabbar */,
+				922239722B2DEE7700068426 /* Breeds */,
+				922239752B2DEED700068426 /* Quiz */,
+				922239742B2DEECB00068426 /* Encyclo */,
+				922239732B2DEE9A00068426 /* Favorite */,
+				922239762B2DEEE000068426 /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9222396A2B2DED2200068426 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				920D27772B2F3F54000C7EC9 /* incorrectSound.mp3 */,
+				920D27792B2F414D000C7EC9 /* correctSound.mp3 */,
+				920D277B2B2F4952000C7EC9 /* resultSound.mp3 */,
+				92638C762B2D9A0A001CBFF4 /* UserDefaultsManager.swift */,
+				92A9E1AE2B2C6B6D009307D8 /* UIColorExtension.swift */,
+				92A9E1922B2C42F4009307D8 /* AppDelegate.swift */,
+				92A9E19D2B2C42F5009307D8 /* LaunchScreen.storyboard */,
+				9222396F2B2DED5D00068426 /* FileManager.swift */,
+				920D276F2B2F18EA000C7EC9 /* quizImg.png */,
+				920D278D2B2F9A69000C7EC9 /* aboutGif.gif */,
+				922239652B2DCC0800068426 /* owl1.gif */,
+				92A9E19B2B2C42F5009307D8 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		922239712B2DEE4300068426 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				92A9E1A62B2C43E8009307D8 /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		922239722B2DEE7700068426 /* Breeds */ = {
+			isa = PBXGroup;
+			children = (
+				92A9E1962B2C42F4009307D8 /* BreedsViewContoller.swift */,
+				92A9E1B02B2C6E33009307D8 /* BreedDetailViewController.swift */,
+				92A9E1BC2B2CBCFE009307D8 /* FullIMageBreedViewController.swift */,
+			);
+			path = Breeds;
+			sourceTree = "<group>";
+		};
+		922239732B2DEE9A00068426 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				92A9E1BE2B2CD6A9009307D8 /* FavoritesViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		922239742B2DEECB00068426 /* Encyclo */ = {
+			isa = PBXGroup;
+			children = (
+				92A9E1A82B2C4476009307D8 /* EncyclopediaViewController.swift */,
+			);
+			path = Encyclo;
+			sourceTree = "<group>";
+		};
+		922239752B2DEED700068426 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				922239772B2DEF6100068426 /* QuizViewController.swift */,
+				92A9E1AC2B2C57E8009307D8 /* StartQuizViewController.swift */,
+				9222397F2B2E068C00068426 /* ResultViewController.swift */,
+				922239812B2E170A00068426 /* SmoothProgressBar.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		922239762B2DEEE000068426 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				920D27812B2F7FDC000C7EC9 /* SettingsViewController.swift */,
+				920D27832B2F809B000C7EC9 /* VibrationManager.swift */,
+				920D27872B2F8BA2000C7EC9 /* AboutAppViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		92A9E1862B2C42F4009307D8 = {
 			isa = PBXGroup;
 			children = (
@@ -78,23 +187,10 @@
 		92A9E1912B2C42F4009307D8 /* Owlezy */ = {
 			isa = PBXGroup;
 			children = (
-				92A9E1A62B2C43E8009307D8 /* TabbarViewController.swift */,
-				92A9E1962B2C42F4009307D8 /* BreedsViewContoller.swift */,
-				92A9E1BE2B2CD6A9009307D8 /* FavoritesViewController.swift */,
-				92A9E1BC2B2CBCFE009307D8 /* FullIMageBreedViewController.swift */,
-				92638C7B2B2DA2BC001CBFF4 /* FileManager.swift */,
-				92638C762B2D9A0A001CBFF4 /* UserDefaultsManager.swift */,
-				92A9E1B02B2C6E33009307D8 /* BreedDetailViewController.swift */,
-				92A9E1A82B2C4476009307D8 /* EncyclopediaViewController.swift */,
-				92A9E1AC2B2C57E8009307D8 /* QuizViewController.swift */,
-				92A9E1AA2B2C448E009307D8 /* SettingsViewController.swift */,
-				92A9E1AE2B2C6B6D009307D8 /* UIColorExtension.swift */,
-				92A9E1922B2C42F4009307D8 /* AppDelegate.swift */,
-				92A9E1B22B2C706B009307D8 /* Breeds */,
-				92A9E19B2B2C42F5009307D8 /* Assets.xcassets */,
-				92A9E19D2B2C42F5009307D8 /* LaunchScreen.storyboard */,
+				922239692B2DECFA00068426 /* Controllers */,
 				92A9E1A02B2C42F5009307D8 /* Info.plist */,
-				922239652B2DCC0800068426 /* owl1.gif */,
+				92A9E1B22B2C706B009307D8 /* Breeds */,
+				9222396A2B2DED2200068426 /* Support */,
 			);
 			path = Owlezy;
 			sourceTree = "<group>";
@@ -116,7 +212,8 @@
 			);
 			name = Owlezy;
 			packageProductDependencies = (
-				922239632B2DCAC100068426 /* FLAnimatedImage */,
+				920D27682B2F0FB7000C7EC9 /* FLAnimatedImage */,
+				920D276B2B2F10F6000C7EC9 /* SPConfetti */,
 			);
 			productName = Owlezy;
 			productReference = 92A9E18F2B2C42F4009307D8 /* Owlezy.app */;
@@ -147,7 +244,8 @@
 			);
 			mainGroup = 92A9E1862B2C42F4009307D8;
 			packageReferences = (
-				922239622B2DCAC100068426 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+				920D27672B2F0FB7000C7EC9 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+				920D276A2B2F10F6000C7EC9 /* XCRemoteSwiftPackageReference "SPConfetti" */,
 			);
 			productRefGroup = 92A9E1902B2C42F4009307D8 /* Products */;
 			projectDirPath = "";
@@ -163,8 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920D27702B2F18EA000C7EC9 /* quizImg.png in Resources */,
+				920D277A2B2F414D000C7EC9 /* correctSound.mp3 in Resources */,
+				920D27782B2F3F54000C7EC9 /* incorrectSound.mp3 in Resources */,
 				92A9E1B32B2C706B009307D8 /* Breeds in Resources */,
+				920D278E2B2F9A69000C7EC9 /* aboutGif.gif in Resources */,
 				92A9E19F2B2C42F5009307D8 /* LaunchScreen.storyboard in Resources */,
+				920D277C2B2F4952000C7EC9 /* resultSound.mp3 in Resources */,
 				922239662B2DCC0800068426 /* owl1.gif in Resources */,
 				92A9E19C2B2C42F5009307D8 /* Assets.xcassets in Resources */,
 			);
@@ -177,15 +280,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920D27882B2F8BA2000C7EC9 /* AboutAppViewController.swift in Sources */,
+				922239702B2DED5D00068426 /* FileManager.swift in Sources */,
 				92A9E1A92B2C4476009307D8 /* EncyclopediaViewController.swift in Sources */,
+				922239782B2DEF6100068426 /* QuizViewController.swift in Sources */,
 				92A9E1AF2B2C6B6D009307D8 /* UIColorExtension.swift in Sources */,
 				92A9E1972B2C42F4009307D8 /* BreedsViewContoller.swift in Sources */,
-				92638C7C2B2DA2BC001CBFF4 /* FileManager.swift in Sources */,
+				922239822B2E170A00068426 /* SmoothProgressBar.swift in Sources */,
 				92A9E1932B2C42F4009307D8 /* AppDelegate.swift in Sources */,
+				920D27822B2F7FDD000C7EC9 /* SettingsViewController.swift in Sources */,
 				92638C772B2D9A0A001CBFF4 /* UserDefaultsManager.swift in Sources */,
-				92A9E1AD2B2C57E8009307D8 /* QuizViewController.swift in Sources */,
+				92A9E1AD2B2C57E8009307D8 /* StartQuizViewController.swift in Sources */,
+				920D27842B2F809B000C7EC9 /* VibrationManager.swift in Sources */,
 				92A9E1BD2B2CBCFE009307D8 /* FullIMageBreedViewController.swift in Sources */,
-				92A9E1AB2B2C448E009307D8 /* SettingsViewController.swift in Sources */,
+				922239802B2E068C00068426 /* ResultViewController.swift in Sources */,
 				92A9E1B12B2C6E33009307D8 /* BreedDetailViewController.swift in Sources */,
 				92A9E1BF2B2CD6A9009307D8 /* FavoritesViewController.swift in Sources */,
 				92A9E1A72B2C43E8009307D8 /* TabbarViewController.swift in Sources */,
@@ -335,10 +443,11 @@
 				DEVELOPMENT_TEAM = L64DM58658;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Owlezy/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to save images.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,9 +456,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = relwas.Owlezy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -363,10 +475,11 @@
 				DEVELOPMENT_TEAM = L64DM58658;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Owlezy/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to save images.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,9 +488,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = relwas.Owlezy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,7 +521,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		922239622B2DCAC100068426 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+		920D27672B2F0FB7000C7EC9 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
 			requirement = {
@@ -413,13 +529,26 @@
 				minimumVersion = 1.0.17;
 			};
 		};
+		920D276A2B2F10F6000C7EC9 /* XCRemoteSwiftPackageReference "SPConfetti" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanvorobei/SPConfetti";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		922239632B2DCAC100068426 /* FLAnimatedImage */ = {
+		920D27682B2F0FB7000C7EC9 /* FLAnimatedImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 922239622B2DCAC100068426 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			package = 920D27672B2F0FB7000C7EC9 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
 			productName = FLAnimatedImage;
+		};
+		920D276B2B2F10F6000C7EC9 /* SPConfetti */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 920D276A2B2F10F6000C7EC9 /* XCRemoteSwiftPackageReference "SPConfetti" */;
+			productName = SPConfetti;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
