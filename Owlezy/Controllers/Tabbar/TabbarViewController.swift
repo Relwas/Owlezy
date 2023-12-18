@@ -1,10 +1,3 @@
-//
-//  TabbarViewController.swift
-//  Owlezy
-//
-//  Created by man on 15/12/23.
-//
-
 import UIKit
 
 @available(iOS 13.0, *)
