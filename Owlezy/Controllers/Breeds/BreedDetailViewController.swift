@@ -1,7 +1,7 @@
 import UIKit
 
 @available(iOS 13.0, *)
-class BreedDetailViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, BreedDetailImageCellDelegate {
+class BreedDetailViewController: UIViewController, BreedDetailImageCellDelegate {
 
     let breedName: String
     var collectionView: UICollectionView!
@@ -48,25 +48,9 @@ class BreedDetailViewController: UIViewController, UICollectionViewDataSource, U
         ])
     }
 
-    // MARK: - UICollectionViewDataSource
 
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return breedImages.count
-    }
-
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCell", for: indexPath) as! BreedDetailImageCell
-        cell.imageView.image = breedImages[indexPath.item]
-        cell.delegate = self // Add this line to set the delegate
-        return cell
-    }
-
-
-    // MARK: - UICollectionViewDelegateFlowLayout
-
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 400, height: 255)
-    }
+  
+  
 
     // Fetch images for the selected breed
     func getImagesForBreed(_ breedName: String) -> [UIImage] {
@@ -100,11 +84,32 @@ class BreedDetailViewController: UIViewController, UICollectionViewDataSource, U
 
         navigationController?.pushViewController(fullImageBreedVC, animated: true)
     }
-
-
-
 }
 
+// MARK: - UICollectionViewDataSource
+@available(iOS 13.0, *)
+extension BreedDetailViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return breedImages.count
+    }
+
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCell", for: indexPath) as! BreedDetailImageCell
+        cell.imageView.image = breedImages[indexPath.item]
+        cell.delegate = self // Add this line to set the delegate
+        return cell
+    }
+}
+
+//MARK: - UICollectionViewDelegateFlowLayout
+@available(iOS 13.0, *)
+extension BreedDetailViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 400, height: 255)
+    }
+}
+
+//MARK: - BreedDetailImageCell
 class BreedDetailImageCell: UICollectionViewCell {
     let imageView = UIImageView()
     let shadowView = UIView()

@@ -2,62 +2,61 @@ import UIKit
 import Photos
 
 class FullImageBreedViewController: UIViewController {
-
+    
     var fullImage: UIImage? {
         didSet {
             isImageInFavorites = UserDefaultsManager.shared.isImageInFavorites(fullImage)
         }
     }
-
+    
     var isImageInFavorites: Bool = false {
         didSet {
             updateFavoriteButtonAppearance()
         }
     }
-
+    
     let saveButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Save to Gallery", for: .normal)
         button.layer.cornerRadius = 8
-        button.addTarget(self, action: #selector(saveImageToGallery), for: .touchUpInside)
         button.backgroundColor = UIColor.tabBarSelected
         button.setTitleColor(UIColor.white, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
-
+    
     let favoriteButton: UIButton = {
         let button = UIButton(type: .system)
         button.layer.cornerRadius = 8
         button.setTitle("Save to favorites", for: .normal)
         button.backgroundColor = UIColor.tabBarSelected
         button.setTitleColor(UIColor.white, for: .normal)
-        button.addTarget(self, action: #selector(handleFavoriteButtonTap), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(named: "Fon")
-
+        
         let fullImageView = UIImageView(image: fullImage)
         fullImageView.contentMode = .scaleAspectFit
         fullImageView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(fullImageView)
         view.addSubview(saveButton)
         view.addSubview(favoriteButton)
+        buttonsTarger()
         NSLayoutConstraint.activate([
             fullImageView.topAnchor.constraint(equalTo: view.topAnchor),
             fullImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 3),
             fullImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -3),
             fullImageView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-
+            
             saveButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             saveButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             saveButton.heightAnchor.constraint(equalToConstant: 50),
             saveButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -15),
-
+            
             favoriteButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -75),
             favoriteButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             favoriteButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
@@ -65,34 +64,39 @@ class FullImageBreedViewController: UIViewController {
         ])
         updateFavoriteButtonAppearance()
     }
-
+    
     @objc func handleFavoriteButtonTap() {
         guard let image = fullImage else {
             print("fullImage is nil")
             return
         }
-
+        
         if isImageInFavorites {
             removeFromFavorites(image)
         } else {
             addToFavorites(image)
         }
     }
-
+    
+    private func buttonsTarger() {
+        saveButton.addTarget(self, action: #selector(saveImageToGallery), for: .touchUpInside)
+        favoriteButton.addTarget(self, action: #selector(handleFavoriteButtonTap), for: .touchUpInside)
+    }
+    
     private func addToFavorites(_ image: UIImage) {
         guard !isImageInFavorites else {
             return
         }
-
+        
         UserDefaultsManager.shared.saveImageToFavorites(image)
         isImageInFavorites = true
     }
-
+    
     private func removeFromFavorites(_ image: UIImage) {
         guard let imageData = image.pngData() else {
             return
         }
-
+        
         var favoritePaths = UserDefaultsManager.shared.getFavoritePaths()
         
         // Find the index of the image data in favoritePaths
@@ -122,15 +126,15 @@ class FullImageBreedViewController: UIViewController {
             }
         }
     }
-
+    
     private func updateFavoriteButtonAppearance() {
         UIView.transition(with: favoriteButton, duration: 0, options: .transitionCrossDissolve, animations: {
             let title = self.isImageInFavorites ? "Remove from Favorites" : "Save to Favorites"
             self.favoriteButton.setTitle(title, for: .normal)
         }, completion: nil)
     }
-
-
+    
+    
     @objc func saveImageToGallery() {
         guard let imageToSave = fullImage else {
             print("fullImage is nil")
@@ -148,7 +152,7 @@ class FullImageBreedViewController: UIViewController {
             }
         }
     }
-
+    
     func showSuccessAnimation() {
         let successLabel = UILabel()
         successLabel.text = "Image Saved!"
@@ -157,14 +161,14 @@ class FullImageBreedViewController: UIViewController {
         successLabel.textAlignment = .center
         successLabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(successLabel)
-
+        
         NSLayoutConstraint.activate([
             successLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             successLabel.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50)
         ])
-
+        
         successLabel.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
-
+        
         UIView.animate(withDuration: 0.2, animations: {
             successLabel.alpha = 1.0
             successLabel.transform = .identity
